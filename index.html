@@ -112,7 +112,8 @@ const hd=i=>g.children[i];
 const row1=i=>g.children[8+i];
 const col=i=>[hd([0,1,4,5,6,7][i]),row1(i)];
 const S=[
-{e:()=>[hd(0),hd(1),hd(2),hd(3)],sep:1,pad:-3,t:'What this table measures',b:'This table pulls from multiple sources to evaluate the evidence of a product’s effectiveness (“Strength of evidence”), the credibility of its marketing claims, given the evidence (“Marketing credibility”), and its ongoing commitment to evidence gathering (“Evidence commitment”).'},
+{t:'The problem',b:'It is difficult for funders and buyers to find high-quality information about the effectiveness of edtech products, the credibility of vendors\u2019 marketing claims, and vendors\u2019 ongoing commitment to evidence.'},
+{e:()=>[hd(0),hd(1),hd(2),hd(3)],sep:1,pad:-3,t:'What this table measures',b:'Cobalt Collective has designed a single site that brings this information together: the evidence of a product\u2019s effectiveness (\u201cStrength of evidence\u201d), the credibility of its marketing claims, given the evidence (\u201cMarketing credibility\u201d), and its ongoing commitment to evidence gathering (\u201cEvidence commitment\u201d).'},
 {t:'How to read this table',b:'Each row rates one vendor on four separate measures. They aren’t combined into a score, because they often point in different directions. Vendor names are withheld; this table is for illustrative purposes only.'},
 {e:()=>col(0),t:'Vendor',b:'Hover over a vendor name to see its organization type, time in schools and scale.'},
 {e:()=>col(1),t:'Strength of evidence',b:'How good the research on the product is, from Minimal to Strong. Impact ratings and other reviews are listed below.'},
